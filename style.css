@@ -1,0 +1,139 @@
+body {
+color: #444;
+font-size: 16px;
+font-family:"Open sans";
+}
+.center-box {
+    width: 1180px;
+    margin: 0 auto;
+}
+.header{
+    min-height: 80px;
+    border-bottom: 1px solid rgba(0,0,0, .2);
+    box-shadow:0 1px 3px rgba(0,0,0, .2) ;
+}
+#logo {
+    float: left;
+}
+#logo a {
+    display: inline-block;
+    margin: 15px 0 0 0 ;
+}
+#logo a img{
+    width: 195px;
+    height: auto;
+}
+
+nav {
+	float: right;
+	margin: 28px 0 0 0;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+nav ul li a {
+	padding: 0 10px;
+	color: inherit;
+}
+/*------------banner---------------*/
+h1 {
+	font-family:Abril Fatface;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+    opacity: 0;
+	animation: 2s slideinleft ease 0s forwards;
+	-webkit-animation: 2s slideinleft ease 0s forwards;
+	-moz-animation: 2s slideinleft ease 0s forwards;
+	-o-animation: 2s slideinleft ease 0s forwards;
+}
+
+h2 {
+	font-family:Abril Fatface;
+	font-size: 34px;
+	text-transform: uppercase;
+	margin: 30px 0 20px 0;
+	text-align: center;
+}
+
+#banner h3 {
+	font-size: 26px;
+	color: #fb6c79;
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	animation: 2s slideinleft ease 0.5s forwards;
+	-webkit-animation: 2s slideinleft ease 0.5s forwards;
+	-moz-animation: 2s slideinleft ease 0.5s forwards;
+	-o-animation: 2s slideinleft ease 0.5s forwards;
+}
+
+#banner p {
+	margin: 0 0 20px 0;
+	animation: 2s slideinleft ease 1s forwards;
+	-webkit-animation: 2s slideinleft ease 1s forwards;
+	-moz-animation: 2s slideinleft ease 1s forwards;
+	-o-animation: 2s slideinleft ease 1s forwards;
+}
+
+.button {
+	display: inline-block;
+	background: url(rosy-bg.gif);
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	bov-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
+	border-radius: 30px;
+	opacity: 0;
+	animation: 2s slideinleft ease 1.5s forwards;
+	-webkit-animation: 2s slideinleft ease 1.5s forwards;
+	-moz-animation: 2s slideinleft ease 1.5s forwards;
+	-o-animation: 2s slideinleft ease 1.5s forwards;
+}
+
+
+#banner.button {
+	opacity: 0;
+	animation: 2s slideinleft ease 1.5s forwards;
+	-webkit-animation: 2s slideinleft ease 1.5s forwards;
+	-moz-animation: 2s slideinleft ease 1.5s forwards;
+	-o-animation: 2s slideinleft ease 1.5s forwards;
+}
+
+#banner {
+	background: #f7f7f7 url(flower.png) top right;
+	position: relative;
+	overflow: hidden;
+}
+
+#banner-text {
+	padding: 100px 0 200px;
+}
+
+#banner-text p {
+	width: 45%;
+}
+
+#banner-images .center-box{
+	height: 100%;
+}
+
+#banner-images {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+

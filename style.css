@@ -41,7 +41,6 @@ nav ul {
 }
 
 nav ul li {
-	float: left;
 	display: inline-block;
 	margin-left: 10px;
 }
@@ -286,17 +285,6 @@ h2 {
 	}
 }
 
-@-o-animation-keyframes slideinleft {
-	from {
-		margin-left: -50px;
-		opacity: 0;
-	}
-	to {
-		margin-left: 0px;
-		opacity: 1;
-	}
-}
-
 @keyframes slideinright {
 	from {
 		margin-right:-150px;
@@ -463,12 +451,11 @@ h2 {
 /*------------footer---------------*/
 
 footer {
-	background: #e2e2e2;
+	background: rgb(197, 158, 185);
 	clear: both;
 	overflow: hidden;
 	padding: 20px 0;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 @media only screen and (max-width: 768px) {
@@ -482,7 +469,7 @@ footer {
 
 @media only screen and (max-width: 360px) {
 	.produkt-item {
-	   width: 100%;
+	   width: 95%;
     }
 }
 
@@ -495,24 +482,29 @@ footer {
 }
 
 @media only screen and (max-width: 975px) {
-	#logo, nav, nav ul {float: none; width: 100%; clear: both;}
+	#logo, nav, nav ul {
+        float: none; 
+        width: 100%; 
+        clear: both;
+    }
 	header {overflow: hidden;}
 	nav ul li {
 	    float: none; width: 100%;
 	    margin: 0;
 	}
-
-#logo { text-align:center;
+#logo { 
+    text-align:center;
 }
-
 
 nav ul li a {
 		padding: 10px 0;
 		border-top: solid 1px rgba(0,0,0,0.2);
 	    display: inline-block;
-		width: 100%
+		width: 100%;
+        font-size: 0.4rem;
+        text-decoration: none;
+        
 	}
-
 	nav ul li:last-of-type a {
 		border-bottom:none;
 	}
